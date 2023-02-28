@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ 
+ :focus,
+ :active {
+   outline: none;
+ }
+ a:focus,
+ a:active {
+   outline: none;
+ }
+ 
+ 
+ nav,
+ footer,
+ header,
+ aside {
+   display: block;
+ }
+ 
+ 
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+ }
+ 
+ 
+ input,
+ button,
+ textarea {
+   font-family: inherit;
+ }
+ 
+ 
+ input::-ms-clear {
+   display: none;
+ }
+ button {
+   cursor: pointer;
+ }
+ button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+ }
+ a,
+ a:visited {
+   text-decoration: none;
+ }
+ a:hover {
+   text-decoration: none;
+ }
+ ul li {
+   list-style: none;
+ }
+ img {
+   vertical-align: top;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-size: inherit;
+   font-weight: 400;
+ }
+ 
+ /* ================================= */
+
+ body{
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .header {
+   background-image: url(/img/hero\ image.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container {
+   margin: 0px 166px;
+}
+.header-line {
+   padding-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+/* .header-logo {} */
+/* .nav {} */
+.nav-item {
+   color: #fff;
+   font-weight: 700;
+   font-size: 14px;
+   margin-right: 25px;
+   text-transform: uppercase;
+   transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+color: #FF7400;
+}
+
+.cart {
+   border-right: 1px solid #FFFFFF;
+   padding-right: 10px;
+   height: 50px;
+   position: relative;
+}
+.cart-img {
+   position: absolute;
+   top: 18px;
+   right: 7px;
+
+}
+/* .phone {} */
+.phone-holder {
+   display: flex;
+   align-items: center;
+}
+/* .phone-img {} */
+/* .number {} */
+.num {
+   color: #fff;
+   font-weight: 700;
+}
+.phone-text {
+   font-size: 14px;
+   font-weight: 400;
+   color: #fff;
+}
+/* .btn {} */
+.button {
+   background-color: #ff7400;
+   color: #fff;
+   padding: 14px 18px;
+   font-weight: 700;
+   transition: background-color 0.2s linear;
+}
+
+.button:hover{
+   background-color: #994500;
+}
