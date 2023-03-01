@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic);
 
 * {
    padding: 0;
@@ -103,6 +104,7 @@
 .container {
    margin: 0px 166px;
 }
+
 .header-line {
    padding-top: 50px;
    display: flex;
@@ -110,7 +112,10 @@
    justify-content: space-around;
 }
 /* .header-logo {} */
-/* .nav {} */
+.nav {
+  margin-left: 268px;
+}
+
 .nav-item {
    color: #fff;
    font-weight: 700;
@@ -118,6 +123,10 @@
    margin-right: 25px;
    text-transform: uppercase;
    transition: color 0.3s linear;
+}
+
+.nav-item:last-child{
+  margin-right: 0px;
 }
 
 .nav-item:hover{
@@ -133,7 +142,7 @@ color: #FF7400;
 .cart-img {
    position: absolute;
    top: 18px;
-   right: 7px;
+   right: 16px;
 
 }
 /* .phone {} */
@@ -141,11 +150,14 @@ color: #FF7400;
    display: flex;
    align-items: center;
 }
-/* .phone-img {} */
+.phone-img {
+  margin-right: 7px;
+}
 /* .number {} */
 .num {
    color: #fff;
    font-weight: 700;
+   font-size: 18px;
 }
 .phone-text {
    font-size: 14px;
@@ -163,4 +175,61 @@ color: #FF7400;
 
 .button:hover{
    background-color: #994500;
+}
+
+.header-down{
+  position: relative;
+}
+
+.header-title{
+font-family: 'Tinos';
+font-size: 50px;
+color: #D67E35;
+
+text-align: center;
+position: absolute;
+left: 0px;
+margin-top: 300px;
+margin-left: 50px;
+margin-bottom: 12px;
+}
+
+.header-suptitle{
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-top: 12px;
+  color: #FFFFFF;
+}
+
+.header-suptitle:after{
+position: absolute;
+content: '';
+height: 2px;
+width: 62px;
+background-color: #FFFFFF;
+top: 120px;
+left: 56px;
+}
+.header-suptitle:before{
+position: absolute;
+content: '';
+height: 2px;
+width: 62px;
+background-color: #FFFFFF;
+top: 120px;
+right: 50px;
+}
+
+.header-button{
+  background-color: #FF7400;
+  padding: 14px 28px;
+  color:  #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  transition: background-color 0.2s linear;
+}
+
+.header-button:hover{
+  background-color: #994500;
 }
